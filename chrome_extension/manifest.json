@@ -1,0 +1,10 @@
+{
+  "name": "Compliments on new tab",
+  "description": "Override the new tab page with a compliment grabbed from google sheets",
+  "version": "0.2",
+  "incognito": "split",
+  "chrome_url_overrides": {
+    "newtab": "compliments.html"
+  },
+  "manifest_version": 2
+}
